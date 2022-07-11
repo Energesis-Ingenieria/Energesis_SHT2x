@@ -1,0 +1,27 @@
+{
+  "name": "Energesis_SHT2x",
+  "version": "0.1.0",
+  "keywords": "sensor,SHT21, SHT22, HTU21, HTU22, Si7013, Si7022, Si7021, temperature, humidity",
+  "description": "Library for interfacing with the SHT2x, HTU2x and Si70xx sensor series.",
+  "authors":
+  [
+    {
+      "name": "Jose Guerra Carmenate",
+      "email": "joseguerracarmenate@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Energesis-Ingenieria/Energesis_SHT2x.git"
+  },
+  "license": "Apache-2.0",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": ["Energesis_Si7021.h", "Energesis_SHT2x.h", "Energesis_HTU2xD.h"],
+  "dependencies": {
+    "energesis-ingenieria/Energesis_GenericSensor": "*",
+    "energesis-ingenieria/Energesis_IO": "*"
+  }
+}
